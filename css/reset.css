@@ -5,7 +5,7 @@
 @import url('https://webfontworld.github.io/naver/NanumSquareRound.css');
 
 
-*, html, body, div, section, img, span, a {
+*, html, body, div, section, img, span, a, input, button {
     padding: 0; 
     margin: 0; 
     box-sizing: border-box; 
@@ -31,10 +31,11 @@ img {
 
 a, a:focus, a:visited, a:link, a:active, a:hover {text-decoration: none; color: #bfbfbf;}
 
+input {border: 0 none;font-size: 16px; font-family: 'Nanum Myeongjo';}
+input:focus {border: none; outline: none;}
+input::selection {background-color: rgba(255, 255, 255, 0);}
 
-
-
-
+button {border: 0 none; background-color: #fff; font-size: 12px; font-family: 'Nanum Myeongjo'; cursor: pointer;}
 
 
 
