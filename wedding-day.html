@@ -91,8 +91,8 @@
                 <div class="w-bank">
                     <div class="w-bank-tit">마음 전해주실 곳</div>
                     <div class="w-bank-txt">
-                        <input type="text" class="copy-txt" value="3333-02-5739230" id="myInput">
-                        <div class="bank-nm">(문수린)</div>
+                        <input type="text" class="copy-txt" value="841-21-0098-662" id="myInput">
+                        <div class="bank-nm">국민 (문승언)</div>
                         <button class="copy-btn" onclick="copyToClipboard()">복사하기</button>
                         <script>
                             function copyToClipboard() {
@@ -102,8 +102,21 @@
                               document.execCommand("copy");
                               alert("복사되었습니다. : " + copyText.value);
                             }
-                            </script>
-
+                        </script>
+                    </div>
+                    <div class="w-bank-txt">
+                        <input type="text" class="copy-txt" value="110-065-956538" id="myInput2">
+                        <div class="bank-nm">신한 (김미희)</div>
+                        <button class="copy-btn" onclick="copyToClipboard2()">복사하기</button>
+                        <script>
+                            function copyToClipboard2() {
+                              var copyText = document.getElementById("myInput2");
+                              copyText.select();
+                              copyText.setSelectionRange(0, 99999)
+                              document.execCommand("copy");
+                              alert("복사되었습니다. : " + copyText.value);
+                            }
+                        </script>
                     </div>
                 </div>
             </section>
